@@ -1,0 +1,219 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+nav {
+    width: 250px;
+    background-color: #343a40;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+nav h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffc107;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.welcome-box {
+    text-align: center;
+    padding: 40px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-box h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.welcome-box p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    border-radius: 4px;
+}
+.dashboard-summary {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dashboard-summary h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.summary-cards .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.summary-cards .card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4CAF50;
+}
+
+.summary-cards .card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chart-container {
+    margin-top: 30px;
+    text-align: center;
+}
+.dashboard-summary {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dashboard-summary h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.summary-cards .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.summary-cards .card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4CAF50;
+}
+
+.summary-cards .card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recent-products {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.recent-products table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.recent-products table th, .recent-products table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.recent-products table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.recent-products table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
